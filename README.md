@@ -1,5 +1,3 @@
-Let's see the Transitions:
-
 ### Original Image
 ![alt text](./miyoshi.jpg)
 
