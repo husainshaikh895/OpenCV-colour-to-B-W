@@ -20,6 +20,9 @@ originalImage = cv2.imread('./miyoshi.jpg')
 grayImage = cv2.cvtColor(originalImage, cv2.COLOR_BGR2GRAY)
 # if the threshold is 150 or above then convert it to 255 else 0 for each pixle
 (thresh, blackAndWhiteImage) = cv2.threshold(grayImage, 150, 255, cv2.THRESH_BINARY)
+
+
+
 # show the images and their transition when any key is pressed
 
 
@@ -36,3 +39,9 @@ cv2.destroyAllWindows()
 cv2.imshow('Black and white image', blackAndWhiteImage)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+
+
+# save the images
+cv2.imwrite('./miyoshi_g.jpg',grayImage)
+cv2.imwrite('./miyoshi_bw.jpg', blackAndWhiteImage)
