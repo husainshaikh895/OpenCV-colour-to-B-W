@@ -10,4 +10,4 @@ This image will preserve the Shadows but it will evaporate all the colours
 This image will also remove the shadows and will only convert the respective pixel to our specified shade if it is already above threshold
 
 ### Putting it all together
-![](./transition.jpg)
+![](./transition_compressed.jpg)
